@@ -40,7 +40,7 @@ namespace database
       }
       else
       {
-        MessageBox.Show("Wrong date", "Error", MessageBoxButtons.OK);
+        MessageBox.Show("Wrong data", "Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
       }
     }
 

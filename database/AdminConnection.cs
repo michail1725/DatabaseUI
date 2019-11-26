@@ -12,12 +12,18 @@ using MySql.Data.MySqlClient; // for sql connection
 
 namespace database
 {
+    
   public partial class AdminConnection : Form
   {
     
     string login = "";
     string password = "";
     MySqlConnection myConnection;
+    MySqlDataAdapter adt;
+    MySqlCommand cmd;
+    MySqlDataReader reader;
+    DataTable table;
+
     public AdminConnection(string login, string password)
     {
       this.login = login;
@@ -75,33 +81,41 @@ namespace database
       this.Close();
     }
 
-    /* private void sendBtn_Click(object sender, EventArgs e)
-     {
-       try
-       {
-         string CommandText = String.Format("INSERT INTO client (id, full_name, contacts, address) VALUES({0}, '{1}', '{2}', '{3}');",
-         //idinput.Text, nameInput.Text, phoneInput.Text, cityInput.Text);
-         myConnection.Open(); //Устанавливаем соединение с базой данных.
-         MySqlCommand myCommand = new MySqlCommand(CommandText, myConnection);
+        private void openTable(object sender, EventArgs e)
+        {
+            table = new DataTable();
+            //cmd = new MySqlCommand(, myConnection);
 
-         MySqlDataReader MyDataReader;
-         MyDataReader = myCommand.ExecuteReader();
-         while (MyDataReader.Read())
+            
+        }
+
+        /* private void sendBtn_Click(object sender, EventArgs e)
          {
-           int id = MyDataReader.GetInt32(0); //Получаем целое число
-           string result = MyDataReader.GetString(1); //Получаем строку
-           result += " " + MyDataReader.GetString(2); //Получаем строку
-           result += " " + MyDataReader.GetString(3); //Получаем строку
-           MessageBox.Show("res: " + result + " id: " + id.ToString());
-         }
-         MyDataReader.Close();
+           try
+           {
+             string CommandText = String.Format("INSERT INTO client (id, full_name, contacts, address) VALUES({0}, '{1}', '{2}', '{3}');",
+             //idinput.Text, nameInput.Text, phoneInput.Text, cityInput.Text);
+             myConnection.Open(); //Устанавливаем соединение с базой данных.
+             MySqlCommand myCommand = new MySqlCommand(CommandText, myConnection);
 
-         // myConnection.Close(); //Обязательно закрываем соединение!
-       }
-       catch (Exception ex)
-       {
-         MessageBox.Show(ex.Message);
-       }
-     }*/
-  }
+             MySqlDataReader MyDataReader;
+             MyDataReader = myCommand.ExecuteReader();
+             while (MyDataReader.Read())
+             {
+               int id = MyDataReader.GetInt32(0); //Получаем целое число
+               string result = MyDataReader.GetString(1); //Получаем строку
+               result += " " + MyDataReader.GetString(2); //Получаем строку
+               result += " " + MyDataReader.GetString(3); //Получаем строку
+               MessageBox.Show("res: " + result + " id: " + id.ToString());
+             }
+             MyDataReader.Close();
+
+             // myConnection.Close(); //Обязательно закрываем соединение!
+           }
+           catch (Exception ex)
+           {
+             MessageBox.Show(ex.Message);
+           }
+         }*/
+    }
 }

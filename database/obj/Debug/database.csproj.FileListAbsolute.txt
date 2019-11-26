@@ -15,3 +15,19 @@ C:\Users\Sony\Desktop\3 сем\БД\database\database\obj\Debug\database.exe
 C:\Users\Sony\Desktop\3 сем\БД\database\database\obj\Debug\database.pdb
 C:\Users\Sony\Desktop\3 сем\БД\database\database\obj\Debug\database.AdminConnection.resources
 C:\Users\Sony\Desktop\3 сем\БД\database\database\obj\Debug\database.UserConnection.resources
+E:\Git\Repos\DatabaseUI\database\bin\Debug\database.exe.config
+E:\Git\Repos\DatabaseUI\database\bin\Debug\database.exe
+E:\Git\Repos\DatabaseUI\database\bin\Debug\database.pdb
+E:\Git\Repos\DatabaseUI\database\bin\Debug\Google.Protobuf.dll
+E:\Git\Repos\DatabaseUI\database\bin\Debug\BouncyCastle.Crypto.dll
+E:\Git\Repos\DatabaseUI\database\bin\Debug\Renci.SshNet.dll
+E:\Git\Repos\DatabaseUI\database\bin\Debug\MySql.Data.xml
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.csprojAssemblyReference.cache
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.AdminConnection.resources
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.Authorization.resources
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.Properties.Resources.resources
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.UserConnection.resources
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.csproj.GenerateResource.cache
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.csproj.CopyComplete
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.exe
+E:\Git\Repos\DatabaseUI\database\obj\Debug\database.pdb
